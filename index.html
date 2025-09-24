@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Gramata vertesana</title>
+</head>
+<body>
+    <form action="submit.php" method="POST">
+        <h1>Grāmata Vērtēšana</h1>
+        <label for="Fname">Full Name</label>
+        <input type="text" name="Fname">
+
+        <label for="Level">Level</label>
+        <select name="rating" id="ratin">
+            <option value="1">Unreadable</option>
+            <option value="2">Bad</option>
+            <option value="3">Avarage</option>
+            <option value="4">Good</option>
+            <option value="5">Great</option>
+        </select>
+
+        <label for="Book Title">Title</label>
+        <input type="text" name="book_title" id="Nos">
+
+        <textarea name="review_text" id="Cont"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+</body>
+</html>

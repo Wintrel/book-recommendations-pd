@@ -1,0 +1,17 @@
+body {
+    margin: 400px;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    border-style: solid;
+    align-items: center;
+}
+label{
+    font-weight: bold;
+    font-size: 2rem;
+}
